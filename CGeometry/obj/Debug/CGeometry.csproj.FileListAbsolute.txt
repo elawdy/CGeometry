@@ -1,0 +1,3 @@
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\bin\Debug\CGeometry.exe.config
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry1\CGeometry\bin\Debug\CGeometry.exe.config
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry\bin\Debug\CGeometry.exe.config
