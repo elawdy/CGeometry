@@ -1,0 +1,23 @@
+﻿<Window x:Class="CGeometry.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CGeometry.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+        <!--Canavas-->
+        <Canvas Grid.Column="1" Name="cnvs_drawing" Background="{DynamicResource {x:Static SystemColors.GradientInactiveCaptionBrushKey}}" ></Canvas>
+        <!--menue buttons-->
+        <StackPanel Grid.Column="0">
+            <Button Name="btn_point" Margin="5" Click="btn_point_Click">Add Point</Button>
+            <Button Name="btn_closestPair" Margin="5" Click="btn_closestPair_Click">Closest Pair</Button>
+            <Button Name="btn_Clear" Margin="5" Click="btn_Clear_Click">Clear</Button>
+        </StackPanel>
+    </Grid>
+</Window>

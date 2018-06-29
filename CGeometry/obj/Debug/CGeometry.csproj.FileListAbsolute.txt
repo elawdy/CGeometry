@@ -1,3 +1,15 @@
 C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\bin\Debug\CGeometry.exe.config
 C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry1\CGeometry\bin\Debug\CGeometry.exe.config
 C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry\bin\Debug\CGeometry.exe.config
+D:\ITI\myProjects\CGeometry\CGeometry\bin\Debug\CGeometry.exe.config
+D:\ITI\myProjects\CGeometry\CGeometry\bin\Debug\CGeometry.exe
+D:\ITI\myProjects\CGeometry\CGeometry\bin\Debug\CGeometry.pdb
+D:\ITI\myProjects\CGeometry\CGeometry\obj\Debug\CGeometry.csprojResolveAssemblyReference.cache
+D:\ITI\myProjects\CGeometry\CGeometry\obj\Debug\CGeometry.csproj.CoreCompileInputs.cache
+D:\ITI\myProjects\CGeometry\CGeometry\obj\Debug\CGeometry.exe
+D:\ITI\myProjects\CGeometry\CGeometry\obj\Debug\CGeometry.pdb
+D:\ITI\myProjects\CGeometry\CGeometry\bin\Debug\MathNet.Numerics.dll
+D:\ITI\myProjects\CGeometry\CGeometry\bin\Debug\MathNet.Spatial.dll
+D:\ITI\myProjects\CGeometry\CGeometry\bin\Debug\MathNet.Numerics.xml
+D:\ITI\myProjects\CGeometry\CGeometry\bin\Debug\MathNet.Spatial.xml
+D:\ITI\myProjects\CGeometry\CGeometry\obj\Debug\CGeometry.csproj.CopyComplete
