@@ -16,7 +16,9 @@
         <!--menue buttons-->
         <StackPanel Grid.Column="0">
             <Button Name="btn_point" Margin="5" Click="btn_point_Click">Add Point</Button>
+            <Button Name="btn_Line" Margin="5" Click="btn_Line_Click">Add Lines</Button>
             <Button Name="btn_closestPair" Margin="5" Click="btn_closestPair_Click">Closest Pair</Button>
+            <Button Name="btn_SegIntersect" Margin="5" Click="btn_SegIntersect_Click">Segment Inter</Button>
             <Button Name="btn_Clear" Margin="5" Click="btn_Clear_Click">Clear</Button>
         </StackPanel>
     </Grid>

@@ -11,7 +11,7 @@ namespace CGeometry
         public static void Main()
         {
 
-          var point=  CGenerator.Points(1000,0, 500, 0, 500);
+          //var point=  CGenerator.Points(1000,0, 500, 0, 500);
 
         }
     }

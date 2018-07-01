@@ -1,36 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Shapes;
+using MathNet.Spatial.Euclidean;
+using CGeometry.Interfaces;
 
 namespace CGeometry.WPF.Graphics
 {
-    public class GLine : GShape
+    public class GLine : GShape, ILine
     {
-        private double scale=1;
+        private double scale = 1;
+        public Point2D startPoint;
+        public Point2D endPoint;
 
+
+        public Line Line { get; set; }
         public double Scale
         {
             get { return scale; }
             set { scale = value; }
         }
-
-
-
-        public Line Line { get; set; }
-        public Point StartPoint { get; set; }
-        public Point EndPoint { get; set; }
-        public GLine(GCanvas gCanvas, Point startPoint, Point endPoint):base(gCanvas)
+        public Point2D StartPoint
         {
-            //StartPoint = ConvertCoordinates(startPoint);
-            //EndPoint = ConvertCoordinates(endPoint);
-            StartPoint = startPoint;
-            EndPoint = endPoint;
+            get { return startPoint; }
+            set { startPoint = value; }
+        }
+        public Point2D EndPoint
+        {
+            get { return endPoint; }
+            set { endPoint = value; }
+        }
+
+
+
+
+        public GLine(GCanvas gCanvas, Point2D startPoint, Point2D endPoint) : base(gCanvas)
+        {
+            this.startPoint = startPoint;
+            this.endPoint = endPoint;
             Shape = Line = new Line();
             Line.X1 = StartPoint.X /*Scale*/;
             Line.Y1 = StartPoint.Y;
@@ -42,10 +49,10 @@ namespace CGeometry.WPF.Graphics
         }
         public override void SetScale(double value)
         {
-                    ((TransformGroup)Line.RenderTransform).Children.Add(
-                        new ScaleTransform(value,value,Line.X1,Line.Y1));
+            ((TransformGroup)Line.RenderTransform).Children.Add(
+                new ScaleTransform(value, value, Line.X1, Line.Y1));
         }
-        public override void SetTranslate(double valueX,double valueY)
+        public override void SetTranslate(double valueX, double valueY)
         {
 
             ((TransformGroup)Line.RenderTransform).Children.Add(

@@ -55,6 +55,9 @@
     <Compile Include="CGenerator.cs" />
     <Compile Include="CGeneratorPRogramme.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SweapLine\Event.cs" />
+    <Compile Include="SweapLine\ILine.cs" />
+    <Compile Include="SweapLine\SegIntersect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

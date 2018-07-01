@@ -38,7 +38,7 @@ namespace CGeometry.WPF
                     return result;
                 }
 
-                result.Add(new GLine(gCanvas, new Point(points[i].X, points[i].Y), new Point(points[i + 1].X, points[i + 1].Y))
+                result.Add(new GLine(gCanvas, new Point2D(points[i].X, points[i].Y), new Point2D(points[i + 1].X, points[i + 1].Y))
                 {
                     Fill = Brushes.Red,
                     Stroke = Brushes.Red

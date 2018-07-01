@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MathNet.Spatial.Euclidean;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -20,18 +21,18 @@ namespace CGeometry.WPF.Graphics
         public double HeadAngle { get; set; }
 
         public List<GLine> Lines { get; set; }
-        public Point InsertionPoint { get; set; }
+        public Point2D InsertionPoint { get; set; }
         public Direction Direction { get; set; }
-        public Arrow(GCanvas gCanvas, Point insertionPoint, double length) : base(gCanvas)
+        public Arrow(GCanvas gCanvas, Point2D insertionPoint, double length) : base(gCanvas)
         {
             GCanvas = gCanvas;
             InsertionPoint = insertionPoint;
             Length = length;
             HeadHeight = 5;
-            var body = new GLine(GCanvas, InsertionPoint, new Point(InsertionPoint.X, InsertionPoint.Y + Length));
+            var body = new GLine(GCanvas, InsertionPoint, new Point2D(InsertionPoint.X, InsertionPoint.Y + Length));
 
-            var headRightLine = new GLine(GCanvas, InsertionPoint, new Point(InsertionPoint.X + HeadHeight, InsertionPoint.Y + HeadHeight));
-            var headLeftLine = new GLine(GCanvas, InsertionPoint, new Point(InsertionPoint.X - HeadHeight, InsertionPoint.Y + HeadHeight));
+            var headRightLine = new GLine(GCanvas, InsertionPoint, new Point2D(InsertionPoint.X + HeadHeight, InsertionPoint.Y + HeadHeight));
+            var headLeftLine = new GLine(GCanvas, InsertionPoint, new Point2D(InsertionPoint.X - HeadHeight, InsertionPoint.Y + HeadHeight));
 
             Lines = new List<GLine>()
             {

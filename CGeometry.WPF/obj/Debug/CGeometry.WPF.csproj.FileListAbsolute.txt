@@ -23,3 +23,25 @@ D:\ITI\myProjects\CGeometry\CGeometry.WPF\bin\Debug\CGeometry.exe.config
 D:\ITI\myProjects\CGeometry\CGeometry.WPF\bin\Debug\MathNet.Numerics.xml
 D:\ITI\myProjects\CGeometry\CGeometry.WPF\bin\Debug\MathNet.Spatial.xml
 D:\ITI\myProjects\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.csproj.CopyComplete
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\CGeometry.WPF.exe.config
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.exe
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.pdb
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\CGeometry.WPF.exe
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\CGeometry.WPF.pdb
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\CGeometry.exe
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\MathNet.Numerics.dll
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\MathNet.Spatial.dll
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\CGeometry.pdb
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\MathNet.Numerics.xml
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\bin\Debug\MathNet.Spatial.xml
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.csprojResolveAssemblyReference.cache
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\MainWindow.g.cs
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\PointsWindow.g.cs
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\App.g.cs
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF_MarkupCompile.cache
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF_MarkupCompile.lref
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\MainWindow.baml
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\PointsWindow.baml
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.g.resources
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.Properties.Resources.resources
+C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.csproj.GenerateResource.Cache

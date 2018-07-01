@@ -18,8 +18,6 @@ namespace CGeometry.SweapLine
         public List<Point2D> Result { get; set; }
         private event EventHandler step;
 
-
-
         public event EventHandler Step { remove { step -= value; } add { step += value; } }
         public ClosestPair(List<Point2D> points)
         {
