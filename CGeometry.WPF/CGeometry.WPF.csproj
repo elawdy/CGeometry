@@ -43,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -61,6 +62,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Windows\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -88,6 +92,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="PointsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -127,6 +135,24 @@
       <Project>{7ea6fed7-c7d0-41e6-bfd0-87a92d42c68b}</Project>
       <Name>CGeometry</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\Menue\Ribbon\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\ribbon-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\random-lines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\lineee.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

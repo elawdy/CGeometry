@@ -45,3 +45,5 @@ C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometr
 C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.g.resources
 C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.Properties.Resources.resources
 C:\Users\mhmd\Documents\Visual Studio 2015\Projects\CGeometry\CGeometry\CGeometry.WPF\obj\Debug\CGeometry.WPF.csproj.GenerateResource.Cache
+D:\ITI\myProjects\CGeometry\CGeometry.WPF\obj\Debug\Windows\MainWindow.g.cs
+D:\ITI\myProjects\CGeometry\CGeometry.WPF\obj\Debug\Windows\MainWindow.baml

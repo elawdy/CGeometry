@@ -74,10 +74,10 @@ namespace CGeometry.WPF
            
            SegIntersect Segments = new SegIntersect(GLines);
            Segments.Run();
-            var mySegments = (SegIntersect)sender;
+          //  var mySegments = (SegIntersect)sender;
 
             GeometryEngine.Remove("ClosestPair");
-           var clostPair = mySegments.Intersected.ToCircles(GeometryEngine.GCanvas, Brushes.Green, 10);
+           var clostPair = Segments.Intersected.ToCircles(GeometryEngine.GCanvas, Brushes.Green, 10);
            GeometryEngine.Shapes["ClosestPair"].AddRange(clostPair);
            GeometryEngine.Render("ClosestPair");
 
